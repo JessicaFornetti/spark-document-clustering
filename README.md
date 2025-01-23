@@ -6,11 +6,12 @@ This project was completed as part of the course Machine Learning for Data Scien
 
 The main steps of the project are outlined below:
 
-- **Data Exploration** : 
-- **Data Preprocessing** : 
-- **Time Series Analysis** : 
-- **ARIMA Model Comparaison** : 
-- **ARIMA Model Forecasting**  : 
+- **Spark Environment Setup** 
+- **Data Preparation** : Download and extraction of the data, seperation of the body and head of the message, extraction of organization and category fields
+- **Descriptive Analysis Using SQL** : SQL queries to ensure there are only 2 categories, count the different number of organizations, generate descriptive statistics based on the Date feature
+- **Text Transformation** : Tokenization of the documents into lists of words followed by conversion of the tokenized text into vector representations using HashingTF
+- **Document Clustering Using KMeans**
+- **Clustering Improvements** : Use of TF-IDF and document vector normalization before KMeans clustering
 
 # Repository Overview
 This repository contains 1 [Jupyter notebook](SparkProject.ipynb).

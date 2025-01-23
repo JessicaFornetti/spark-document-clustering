@@ -11,7 +11,7 @@ The main steps of the project are outlined below:
 - **Descriptive Analysis Using SQL** : SQL queries to ensure there are only 2 categories, count the different number of organizations, generate descriptive statistics based on the Date feature
 - **Text Transformation** : Tokenization of the documents into lists of words followed by conversion of the tokenized text into vector representations using HashingTF
 - **Document Clustering Using KMeans**
-- **Clustering Improvements** : Use of TF-IDF and document vector normalization before KMeans clustering
+- **Additional Improvements** : Use of TF-IDF and document vector normalization before KMeans clustering
 
 # Repository Overview
 This repository contains 1 [Jupyter notebook](SparkProject.ipynb).
